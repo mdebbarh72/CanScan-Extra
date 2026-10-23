@@ -1,0 +1,15 @@
+numpy 
+pandas
+tensorflow
+docker
+fastapi
+Flask
+joblib
+matplotlib
+mlflow
+opencv-python
+scickit-learn
+scipy
+seaborn
+streamlit
+uvicorn
