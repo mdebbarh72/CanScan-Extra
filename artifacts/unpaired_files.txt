@@ -1,0 +1,17 @@
+Mode: MOVE
+
+=== train ===
+Images without labels (0):
+Labels without images (0):
+
+=== val ===
+Images without labels (2):
+  image(55).jpg
+  image(61).jpg
+Labels without images (2):
+  image(53).txt
+  image(60).txt
+
+=== test ===
+Images without labels (0):
+Labels without images (0):

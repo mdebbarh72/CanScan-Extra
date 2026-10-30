@@ -1,0 +1,6 @@
+SUMMARY
+  [train] 4027 images, 4027 labels, 4500 boxes, 0 empty label files, classes seen: [0, 1, 2, 3]
+  [val] 510 images, 510 labels, 554 boxes, 1 empty label files, classes seen: [0, 1, 2, 3]
+  [test] 710 images, 710 labels, 817 boxes, 0 empty label files, classes seen: [0, 1, 2, 3]
+
+PROBLEMS (0)

@@ -8,7 +8,7 @@ if ROOT_DIR not in sys.path:
 
 from PIL import Image
 import pandas as pd
-from src.charts import draw_count_plot, show_examples
+from src.classification.charts import draw_count_plot, show_examples
 
 VALID_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp"}
 

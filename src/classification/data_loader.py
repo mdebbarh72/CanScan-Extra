@@ -6,9 +6,9 @@ ROOT_DIR = str(Path(__file__).resolve().parent.parent)
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 
-from src.exploration import run_exploration
-from src.processing import split_data, create_classification_splits, create_tf_datasets
-from src.charts import draw_split_distribution
+from src.classification.exploration import run_exploration
+from src.classification.processing import split_data, create_classification_splits, create_tf_datasets
+from src.classification.charts import draw_split_distribution
 
 
 def prepare_data_pipeline(

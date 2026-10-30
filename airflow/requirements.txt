@@ -1,0 +1,6 @@
+mlflow
+tensorflow-cpu
+pandas
+scikit-learn
+Pillow
+psycopg2-binary

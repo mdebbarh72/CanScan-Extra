@@ -7,8 +7,8 @@ ROOT_DIR = str(Path(__file__).resolve().parent.parent)
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 
-from src.data_loader import load_data, prepare_data_pipeline
-from src.classifier import (
+from src.classification.data_loader import load_data, prepare_data_pipeline
+from src.classification.classifier import (
     build_googlenetv3,
     get_callbacks,
     train_phase1_transfer,

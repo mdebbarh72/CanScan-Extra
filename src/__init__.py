@@ -24,16 +24,16 @@ __all__ = [
 
 def __getattr__(name):
     if name in ("prepare_data_pipeline", "load_data"):
-        from src.data_loader import prepare_data_pipeline, load_data
+        from src.classification.data_loader import prepare_data_pipeline, load_data
         return locals()[name]
     elif name in ("load_and_verify_data", "explore_classes", "run_exploration"):
-        from src.exploration import load_and_verify_data, explore_classes, run_exploration
+        from src.classification.exploration import load_and_verify_data, explore_classes, run_exploration
         return locals()[name]
     elif name in ("split_data", "create_classification_splits", "create_tf_datasets"):
-        from src.processing import split_data, create_classification_splits, create_tf_datasets
+        from src.classification.processing import split_data, create_classification_splits, create_tf_datasets
         return locals()[name]
     elif name in ("draw_count_plot", "show_examples", "draw_split_distribution"):
-        from src.charts import draw_count_plot, show_examples, draw_split_distribution
+        from src.classification.charts import draw_count_plot, show_examples, draw_split_distribution
         return locals()[name]
     elif name in (
         "build_googlenetv3",
@@ -44,7 +44,7 @@ def __getattr__(name):
         "train_phase2_finetune",
         "evaluate_classifier",
     ):
-        from src.classifier import (
+        from src.classification.classifier import (
             build_googlenetv3,
             export_model_summary,
             setup_fine_tuning,
